@@ -1,7 +1,10 @@
 <?php
 
+/*
 
-// Visual Composer Default Templates
+	Hook that makes new custom template in Visual Composer so you can make your own settings.
+
+*/
 
 add_action( 'vc_load_default_templates_action','my_custom_template_for_vc' ); // Hook in
  

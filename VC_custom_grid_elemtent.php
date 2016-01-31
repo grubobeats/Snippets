@@ -2,7 +2,15 @@
 
 
 
-//Custom Grid Element
+/*
+
+Custom Grid Element
+
+Here with this code you can change hooks for Visual Composer - Grid Elements and make your own grid elements.
+In this case there are two of grid elements, but you can have as much as you want.
+
+*/
+
 
 add_filter( 'vc_grid_item_predefined_templates', 'beat_market_grids' );
 

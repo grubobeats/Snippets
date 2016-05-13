@@ -5,7 +5,6 @@
  * Syntax: https://api.telegram.org/bot<token>/METHOD_NAME
  *
  */
-
 function sendMessageToTelegramBot( $bot_token_number, $id_of_chat, $url_encoded_text ){
     $bot_url = "https://api.telegram.org/bot$bot_token_number/sendMessage?chat_id=$id_of_chat&text=$url_encoded_text&parse_mode=Markdown&disable_web_page_preview=true";
     return file_get_contents($bot_url);
